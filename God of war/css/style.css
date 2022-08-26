@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+
+}
+
+.root{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    width: 200px;
+    height: auto;
+    margin: 15px;
+}
+
+.header__UL{
+    display: inline-flex;
+    list-style: none;
+}
+
+.header__UL > li{
+    margin: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+main{
+    background-color: violet;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__banner{
+    background-image: url('../resources/Wallpapers/GOWRG_Wallpapaper_KeyArt_Background_Desktop_1080.jpg');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__sombra{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.banner__apresentacao{
+    color: white;
+}
+
+.video__gif{
+    border-radius: 25px;
+}
+
+.main__historia{
+    background-color: white;
+    width: 100%;
+    padding: 50px;
+}
+
+.main__historia > h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+}
+
+.main__historia > p{
+    text-align: left;
+    margin: 25px;
+    font-size: 20px;
+}
+
+#main__personagens{
+    background-color: #666;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main__personagens--sombra
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.main__personagens--sombra > h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    color: white;
+}
+
+.sombra__personagem{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+
+}
+
+.personagem__dados
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 25px;
+
+}
+.personagem__dados > img{
+   width: 300px;
+   border-radius: 25px;
+}
+
+.personagem__dados--textos > p{
+    color: white;
+    padding: 0px 25px;
+}
+
+.personagem__dados--textos > h2{
+    margin: 5px 25px;
+    font-size: 40px;
+    color: white;
+}
+
+.personagem__gifs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.personagem__gifs > img{
+    width: 375px;
+    border-radius: 25px;
+}
+
+.sombra__personagem > h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    color: white;
+}
+
+#main__banners--banners{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+#main__banners--banners > h2{
+    margin: 5px 25px;
+    font-size: 40px;
+    color: white;
+}
+
+#main__banners--banners > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#main__banners--banners > div > img{
+    width: 45%;
+    margin: 1%;
+}
+
+ 
+
+footer{
+    background-color: darkcyan;
+    width: 100%;
+    min-height: 100px;
+}
+
+@media screen and (max-width:1000px) {
+    .personagem__gifs{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    header{
+        flex-direction: column;
+        min-height: 200px;
+    }
+    
+    .banner__sombra{
+        flex-direction: column;
+    }
+
+
+    .video__gif{
+        width: 100%;
+    }
+
+    .personagem__dados{
+        flex-direction: column;
+    }
+
+    .personagem__gifs{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video__gif1
+    {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .sombra__personagem{
+        padding: 10px;
+    }
+
+}

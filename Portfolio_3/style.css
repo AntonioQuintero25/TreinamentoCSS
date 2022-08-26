@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif
+}
+
+ion-icon {
+    color:white;
+  }
+
+
+#root{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-image: url('img/observation-urban-building-business-steel.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(255, 0, 0, 0.8);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 5px 5px black;
+}
+
+/* h1{
+    flex-grow: 1;
+} */
+
+.header__menu__logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.header__menu__logo--titulo{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.header__menu__logo > ul{
+    display: flex;
+    align-items: center;
+}
+
+.header__menu__logo > ul > li{
+    list-style: none;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+.header__menu__logo > ul > li:hover{
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.header__apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.header__apresentacao > h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.header__apresentacao > h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.header__apresentacao > p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.header__apresentacao > button {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 25px;
+}
+
+.header__icones{
+    padding: 50px;
+}
+
+main{
+    background-image: linear-gradient(to left, red, orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+main > h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+main > h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+main > button{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.main__menu__logo > ul{
+    display: flex;
+    margin: 25px;
+}
+
+.main__menu__logo > ul > li{
+    list-style: none;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+.main__imagem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main__imagem > img{
+    width: 350px;
+    padding: 15px;
+}
+
+footer{
+    background-image: url('img/observation-urban-building-business-steel.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(255, 0, 0, 0.8);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__imagem {
+    margin: auto 0px;
+}
+
+.footer__imagem > img{
+    width: 350px;
+    padding: 15px;
+}
+
+.footer__apresentacao{
+    width: 30%;
+    padding: 50px;
+}
+
+.footer__apresentacao > h2{
+    margin: 5px 0px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer__apresentacao > p{
+    color: white;
+}
+
+.footer__apresentacao > ul > li{
+    display: flex;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+@media screen and (max-width:600px) {
+    .header__menu__logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__menu__logo > ul{
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+    .header__apresentacao{
+        padding: 50px;
+    }
+
+    .header__apresentacao > h1{
+        font-size: 50px;
+    }
+
+    main{
+        justify-content: center;
+        align-items: center;
+    }
+
+    main > h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    .main__menu__logo > ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__apresentacao{
+        width: 70%;
+    }
+}

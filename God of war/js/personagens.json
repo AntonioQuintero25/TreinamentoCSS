@@ -1,0 +1,28 @@
+[
+    {
+        "nome":"Kratos",
+        "descricao":"Kratos é um personagem de jogos eletrônicos da franquia God of War, da Santa Monica Studio, que é baseado nas mitologias grega e nórdica. Kratos, também conhecido como Fantasma de Esparta, apareceu pela primeira vez no jogo eletrônico de 2005, God of War, que levou ao desenvolvimento de mais sete jogos com o personagem como protagonista. Kratos também aparece como protagonista em quadrinhos e romances de God of War.",
+        "foto":"./resources/Social Profile Pictures/GOWRG_ProfilePicture_Kratos.jpg",
+        "gifs": [
+            "./resources/Trailer GIFs/GOWRG_RevealTrailer_Kratos.gif",
+            "./resources/Trailer GIFs/GOWRG_RevealTrailer_Clash.gif",
+            "./resources/Trailer GIFs/GOWRG_RevealTrailer_Boat.gif"
+        ]
+    },
+    {
+        "nome":"Atreus",
+        "descricao":"Atreus foi concebido entre o grego espartano Kratos e uma giganta nativa de Jötunheim chamada Laufey, a quem ele e seu pai chamam de 'Faye'. Ele é uma criança enfermiça que precisava ficar saudável o suficiente para a sua jornada.",
+        "foto":"./resources/Social Profile Pictures/GOWRG_ProfilePicture_Atreus.jpg",
+        "gifs": [
+            "./resources/Trailer GIFs/GOWRG_RevealTrailer_Atreus.gif"
+        ]
+    },
+    {
+        "nome":"Freya",
+        "descricao":"Nada se sabe sobre sua infância e linhagem. Freya fora a líder dos deuses dos Vanir e concordara em casar-se com Odin para trazer a paz entre os Vanir e Aesir.",
+        "foto":"./resources/Social Profile Pictures/GOWRG_ProfilePicture_Freya.jpg",
+        "gifs": [
+            "./resources/Trailer GIFs/GOWRG_RevealTrailer_Freya.gif"
+        ]
+    }
+]

@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0F2F5;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.root{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao
+{
+    width: 50%;
+    height: 400px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 75px;
+}
+
+.form-div
+{
+    width: 30%;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.sombra
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+hr{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 5px 0px; 
+}
+
+.sombra a
+{
+    margin: 10px;
+    text-decoration: none;
+    color: #166FE5;
+    font-size: 15px;
+}
+
+.btn_conta_nova
+{
+    background-color: #36a420;
+    width: 50%;
+    align-self: center;
+    border-radius: 5px;
+    padding: 15px 0px;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.img_facebook
+{
+    height: 106px;
+    margin: -28px;
+}
+
+.text
+{
+    font-size: 27px;
+    text-align: left;
+    padding: 0px 20px 0px 0px;
+    margin: 25px 0px;
+    width: 500px;
+}
+
+.textInput
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn_entar
+{
+    width: 100%;
+    padding: 15px 0px;
+    margin: 5px 0px;
+    background-color: #166FE5;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.p_conta_nova
+{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 15px
+}
+
+@media screen and (max-width:600px) {
+    .root{
+        flex-direction: row;
+    }
+}
